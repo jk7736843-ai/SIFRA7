@@ -33,9 +33,9 @@ BOT_USERNAME  = "Sifra7_bot"
 # Format A: /crapi/had/viewstats (uses dt1/dt2, returns num/dt/message)
 APIS_A = [
     {"url": "http://147.135.212.197/crapi/had/viewstats", "token": "R1JXQjRSQlVFbpFJQlZXfXZuckJmiZeIg5BUeXyKU4qCYVFDenFy"},  # API 1
-    {"url": "http://147.135.212.197/crapi/time/viewstats",                                            "token": "RlBSNEVBhomCZVFTQ1FsQoduiliBVFhJW42HU3uFkYZ-YlJGRoc="},  # API 2
-    {"url": "http://51.77.216.195/crapi/konek/viewstats",                                            "token": "SFVRNEVBUlZ7UXGGeVR3XYiSgl1liFZzgHSAeVNrhkmHildzSGQ="},  # API 3
-    {"url": "",                                            "token": ""},  # API 4
+    {"url": "http://147.135.212.197/crapi/time/viewstats","token": "RlBSNEVBhomCZVFTQ1FsQoduiliBVFhJW42HU3uFkYZ-YlJGRoc="},  # API 2
+    {"url": "http://51.77.216.195/crapi/konek/viewstats", "token": "SFVRNEVBUlZ7UXGGeVR3XYiSgl1liFZzgHSAeVNrhkmHildzSGQ="},  # API 3
+    {"url": "http://51.77.216.195/crapi/gaza/viewstats",  "token": "RlZXNEVBdmpgcIRKg39qiX2EZIuGlVVbioNge2Zqhl6AcldGZl8="},  # API 4
 ]
 
 # Format B: /crapi/reseller/mdr.php (uses fromdate/todate, returns number/datetime/message)
